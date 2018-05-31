@@ -80,5 +80,11 @@ class PageTableSeeder extends Seeder
 }
 ```
 
+Then you can simply use it like:
+```html
+<h1>{{ $page->translation->content['title'] ?? $page->title }}</h1>
+<p>{!! $page->translation->content['body'] ?? $page->body !!}</p>
+```
+
 ## License
 The **Laravel Translations** is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
