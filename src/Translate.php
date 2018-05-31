@@ -11,7 +11,7 @@ trait Translate
      */
     public function translations()
     {
-        return $this->morphMany(Translation::class, 'translatable');
+        return $this->morphMany(Translation::class, 'translation');
     }
 
     /**
