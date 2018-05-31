@@ -1,0 +1,21 @@
+{
+  "name": "bramalho/laravel-translations",
+  "description": "Laravel Translations Package",
+  "keywords": ["laravel", "translation", "model"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruno Ramalho",
+      "email": "bfmramalho@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3",
+    "laravel/framework": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "BRamalho\\LaravelTranslations\\": "src"
+    }
+  }
+}
