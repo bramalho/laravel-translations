@@ -68,8 +68,8 @@ class PageTableSeeder extends Seeder
 
         Translation::create([
             'id' => 1,
-            'laravel-translations_id' => 1,
-            'laravel-translations_type' => App\Page::class,
+            'translation_id' => 1,
+            'translation_type' => App\Page::class,
             'language' => 'pt',
             'content' => [
                 'title' => 'Olá Mundo!',
