@@ -1,6 +1,6 @@
 <?php
 
-namespace BRamalho\LaravelTranslations;
+namespace BRamalho\LaravelTranslations\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

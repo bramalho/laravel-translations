@@ -1,7 +1,8 @@
 <?php
 
-namespace BRamalho\LaravelTranslations;
+namespace BRamalho\LaravelTranslations\Traits;
 
+use BRamalho\LaravelTranslations\Models\Translation;
 use Illuminate\Support\Facades\App;
 
 trait Translate
